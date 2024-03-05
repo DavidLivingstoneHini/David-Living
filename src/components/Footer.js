@@ -18,10 +18,10 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navicon0} alt="" style={{width: 30}}/></a>
-                <a href="#"><img src={navIcon4} alt="" style={{width: 30}}/></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="https://linkedin.com/in/livingstone-david-kwame-hini-bba016176"><img src={navIcon1} alt="" /></a>
+                <a href="https://github.com/DavidLivingstoneHini"><img src={navicon0} alt="" style={{width: 30}}/></a>
+                <a href="http://twitter.com/@StoneSwae"><img src={navIcon4} alt="" style={{width: 30}}/></a>
+                <a href="https://www.instagram.com/swae_stone/"><img src={navIcon3} alt="" /></a>
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
