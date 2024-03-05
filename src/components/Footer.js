@@ -23,7 +23,7 @@ export const Footer = () => {
                 <a href="http://twitter.com/@StoneSwae"><img src={navIcon4} alt="" style={{width: 30}}/></a>
                 <a href="https://www.instagram.com/swae_stone/"><img src={navIcon3} alt="" /></a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>Copyright 2024. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
