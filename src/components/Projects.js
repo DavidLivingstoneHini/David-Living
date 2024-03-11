@@ -80,11 +80,11 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                      <a href="https://github.com/DavidLivingstoneHini?tab=repositories" target="_blank" rel="noreferrer"><p>See all projects on my Github page <ArrowRightCircle size={25} /></p></a>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>See all projects on my Github page <ArrowRightCircle size={25} /></p>
+                      <a href="https://github.com/DavidLivingstoneHini?tab=repositories" target="_blank" rel="noreferrer"><p>See all projects on my Github page <ArrowRightCircle size={25} /></p></a>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
@@ -93,7 +93,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt=""></img>
     </section>
   )
 }
