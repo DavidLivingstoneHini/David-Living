@@ -1,8 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/qr.png";
+import projImg2 from "../assets/img/qumi.png";
+import projImg3 from "../assets/img/p3.png";
+import projImg4 from "../assets/img/disney.PNG";
+import projImg5 from "../assets/img/commerce.PNG";
+import projImg6 from "../assets/img/sneaker.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -12,34 +15,34 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Qumi",
+      description: "Queue Management Web App",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Qumi Mobile",
+      description: "Queue Management Mobile App",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Pycle",
+      description: "Car Rental App",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Disney Hotstar Clone",
+      description: "Disney Web App Clone",
+      imgUrl: projImg4,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Commerce",
+      description: "E-commerce Web App",
+      imgUrl: projImg5,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Grealish Sneakers",
+      description: "Sneaker Shop App",
+      imgUrl: projImg6,
     },
   ];
 
