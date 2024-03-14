@@ -36,14 +36,9 @@ export const Newsletter = ({ status, message, onValidated }) => {
         </Row>
         <Row className="justify-content-center">
           <Col lg={6} md={6} xl={5}>
-            <div className="contact-info">
-              <div className="contact-icon">
-                <i className="fa fa-phone"></i>
-              </div>
               <div className="contact-details">
               <p><EmailIcon /><a href="mailto:kwamelivingstone77@gmail.com" style={{fontSize: 17, color: "#919191"}}>kwamelivingstone77@gmail.com</a></p>
               </div>
-            </div>
           </Col>
           <Col lg={6} md={6} xl={5}>
               <div className="contact-details">
