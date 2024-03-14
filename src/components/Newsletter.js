@@ -34,15 +34,15 @@ export const Newsletter = ({ status, message, onValidated }) => {
             {status === 'success' && <Alert variant="success">{message}</Alert>}
           </Col>
         </Row>
-        <Row className="justify-content-center">
-          <Col lg={6} md={6} xl={5}>
+        <Row className="justify-content-center" style={{justifyContent: 'center', alignItems: 'center'}}>
+        <Col lg={6} md={6} xl={5}>
               <div className="contact-details">
-              <p><EmailIcon /><a href="mailto:kwamelivingstone77@gmail.com" style={{fontSize: 17, color: "#919191"}}>kwamelivingstone77@gmail.com</a></p>
+              <p><PhoneInTalkIcon /><span style={{marginLeft: "10px"}}></span><a href="tel:+233202651659" style={{fontSize: 17, color: "#919191"}}>+233 2026 51659</a></p>
               </div>
           </Col>
           <Col lg={6} md={6} xl={5}>
               <div className="contact-details">
-              <p><PhoneInTalkIcon /><a href="tel:+233202651659" style={{fontSize: 16, color: "#919191"}}>+233 2026 51659</a></p>
+              <p><EmailIcon /><span style={{marginLeft: "10px"}}></span><a href="mailto:kwamelivingstone77@gmail.com" style={{fontSize: 17, color: "#919191"}}>kwamelivingstone77@gmail.com</a></p>
               </div>
           </Col>
         </Row>
