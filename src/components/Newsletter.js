@@ -26,26 +26,9 @@ export const Newsletter = ({ status, message, onValidated }) => {
   return (
     <Col lg={12}>
       <div className="newsletter-bx wow slideInUp">
-        <Row>
-          <Col lg={12} md={6} xl={5}>
-            {/* <h5 style={{ textAlign: "center" }}>You can also reach me on...</h5> */}
-            {status === 'sending' && <Alert>Sending...</Alert>}
-            {status === 'error' && <Alert variant="danger">{message}</Alert>} 
-            {status === 'success' && <Alert variant="success">{message}</Alert>}
-          </Col>
-        </Row>
-        <Row className="justify-content-center" style={{justifyContent: 'center', alignItems: 'center'}}>
-        <Col lg={6} md={6} xl={5}>
-              <div className="contact-details">
-              <p><PhoneInTalkIcon /><span style={{marginLeft: "10px"}}></span><a href="tel:+233202651659" style={{fontSize: 17, color: "#919191"}}>+233 2026 51659</a></p>
-              </div>
-          </Col>
-          <Col lg={6} md={6} xl={5}>
-              <div className="contact-details">
-              <p><EmailIcon /><span style={{marginLeft: "10px"}}></span><a href="mailto:kwamelivingstone77@gmail.com" style={{fontSize: 17, color: "#919191"}}>kwamelivingstone77@gmail.com</a></p>
-              </div>
-          </Col>
-        </Row>
+        <div className="justify-content-center" style={{ justifyContent: 'center', alignItems: 'center' }}>
+          <p style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}><EmailIcon style={{ color: "#CC02C2" }} /><span style={{marginLeft: 7}}></span><a href="mailto:kwamelivingstone77@gmail.com" style={{ fontSize: 16, color: "#CC02C2" }}>kwamelivingstone77@gmail.com</a></p>
+        </div>
       </div>
     </Col>
   )
