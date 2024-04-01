@@ -59,7 +59,7 @@ export const Banner = () => {
                 <span className="tagline">Hi there! 👋, welcome</span>
                 <h1>{`I'm David. `} <span className="txt-rotate" dataPeriod="700" data-rotate='[ "Fullstack Developer", "Mobile Developer", "Open Source Advocate" ]' style={{ color: "#D60FCC" }}><span className="wrap">{text}</span></span></h1>
                   <p>A passionate software engineer with a knack for turning complex problems into elegant solutions through code. I thrive on creating efficient, user-friendly software that makes a positive impact. From designing algorithms to debugging code, I enjoy every aspect of the software development process and I'm constantly seeking new ways to enhance my skills and contribute to the ever-evolving tech industry.</p>
-                  <button className=""><a href="https://drive.google.com/file/d/1d_f4VTPWkmN7Djxy__757FyU0m0CELGK/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ color: "white"}}>View Resume/CV<ArrowRightCircle size={25} /></a></button>
+                  <button className=""><a href="https://drive.google.com/file/d/1NE4gnPPDKppY_UloGqvjIv_uXpAsOLET/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ color: "white"}}>View Resume/CV<ArrowRightCircle size={25} /></a></button>
               </div>}
             </TrackVisibility>
           </Col>
