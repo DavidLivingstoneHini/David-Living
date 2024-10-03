@@ -8,6 +8,8 @@ import meter7 from "../assets/img/meter7.svg";
 import meter8 from "../assets/img/meter8.svg";
 import meter9 from "../assets/img/meter9.svg";
 import meter10 from "../assets/img/meter10.svg";
+import meter11 from "../assets/img/meter11.svg";
+
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/img/color-sharp.png";
@@ -87,6 +89,10 @@ export const Skills = () => {
                 <div className="item">
                   <img src={meter10} alt="Java Springboot" />
                   <h5>Java Springboot</h5>
+                </div>
+                <div className="item">
+                  <img src={meter11} alt="Database" />
+                  <h5>Database Administration</h5>
                 </div>
               </Carousel>
             </div>
